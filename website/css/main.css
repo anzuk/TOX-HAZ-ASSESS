@@ -26,7 +26,7 @@ header{
 	float: left;
 }
 .header-left{
-	width: 60%;
+	width: 50%;
 }
 .header-right label{
 	position: absolute;
@@ -60,7 +60,7 @@ header{
 	top: 14px;
 }
 .header-right{
-	width: 40%;
+	width: 50%;
 	text-align: right;
 	padding-top: 55px;
 }
@@ -80,7 +80,7 @@ a{
 nav>a{
 	position: relative;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 40px;
 	padding: 0 1.1em;
 	-webkit-transition: all .3s ease;
@@ -412,6 +412,18 @@ p.subtitle, p.subtitle-sm, p.projects, p.about-projects, p.subtitle-b-i, p.subti
 	line-height: 1.6;
 }
 
+p.subtitle-2 {
+	font-size: 18px;
+	color: #65696B;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.6;
+}
+
 p.subtitle-sm {
 	font-size: 14px;
 }
@@ -471,37 +483,24 @@ a.about-link {
 	text-decoration: none;
 }
 
-img.img-responsive.epi2, img.img-responsive.dropsens2, img.img-responsive.icechim2 {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-}
-
-img.img-responsive.epi2, img.img-responsive.dropsens2, img.img-responsive.icechim2 {
-	margin-top: 60px;
-	margin-bottom: 20px;
-}
-
 div.row.activities {
 	margin-top: 60px;
 }
 
-img.img-responsive.activities1, img.img-responsive.activities2, img.img-responsive.activities3 {
-	max-height: 300px;
+img.img-responsive.results-1 {
+	max-height: 600px;
 	display: block;
-	padding-bottom: 30px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-img.img-responsive.activities1, img.img-responsive.activities3 {
-	float: left;
-	padding-right: 30px;
-	padding-left: 15px;
-}
-
-img.img-responsive.activities2 {
-	float: right;
-	padding-left: 30px;
-	padding-right: 15px;
+img.img-responsive.results-2 {
+	max-height: 400px;
+	display: block;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /* START MODAL */
