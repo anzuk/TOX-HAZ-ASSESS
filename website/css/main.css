@@ -503,6 +503,25 @@ img.img-responsive.results-2 {
 	margin-right: auto;
 }
 
+div.pdf-download {
+	padding-left: 50px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+img.icon-pdf {
+	float: left;
+	max-height: 44px;
+}
+
+a.pdf-link {
+	float: left;
+	padding-left: 10px;
+	padding-top: 18px;
+	color: #00AAEF;
+	font-weight: bold;
+}
+
 /* START MODAL */
 
 body {
